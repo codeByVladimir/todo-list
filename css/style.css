@@ -1,7 +1,7 @@
 body{
     font-family: "Caveat", serif;
     font-weight: 700;
-    background-image: url('/img/bg.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
