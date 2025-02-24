@@ -1,0 +1,88 @@
+body{
+    font-family: "Caveat", serif;
+    font-weight: 700;
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 915px;
+}
+.container{
+    max-width: 386px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    overflow: hidden;
+}
+.todo__wrapper{
+    
+    width: 356px;
+    height: 618px;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.45);
+    border-radius: 20px;
+    margin-top: 148px;
+}
+.todo__title{
+    font-family: "Ms Madi", serif;
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+    padding-top: 23px;
+    font-weight: 400;
+}
+.todo__line{
+    display: block;
+    border: 1px solid #fff;
+    margin-bottom: 64px;
+}
+.todo__container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 13px;
+    padding-right: 8px;
+}
+.todo__input{
+    width: 260px;
+    height: 60px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #F2F2CB;
+    background-color: rgba(242, 242, 203, 0.75);
+    outline: none;
+    border: none;
+    padding: 15px 14px 15px 29px;
+    box-sizing: border-box; 
+}
+.todo__input::placeholder{
+    font-family: "Caveat", "serif";
+    font-weight: 700;
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+}
+.todo__add-new-task{
+    display: block;
+    outline: none;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #D9D6B6;
+    background-color: rgba(217, 214, 182, 0.90);
+    transition: all 0.3s ease;
+}
+.todo__add-new-task-img{
+    object-fit: cover;
+    width: 34px;
+    height: 34px;
+}
+
+.footer__links{
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+}
